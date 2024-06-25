@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
+}
+
+h1, span, h2 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    background-color: #dad1d1;
+}
+
+#menu-navegacao {
+    background-color: #f5efef;
+    max-width: 530px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+header h2 {
+    color: #fff;
+}
+
+.borda {
+    border-left: solid 2px transparent;
+    border-right: solid 2px transparent;
+}
+
+.nav-link.active .borda{
+    border-left:  solid 2px #9c9696;
+    border-right: solid 2px #9c9696;
+}
+
+#menu-navegacao .nav .nav-link.active {
+    background-color: #f5efef;
+    color: rgb(113, 25, 255);
+    border-radius: 0;
+}
+
+.borda:hover {
+    border-left: solid 2px #9c9696;
+    border-right: solid 2px #9c9696;
+}
+
+.nav-link {
+    color: black;
+}
+
+#carousel {
+    max-width: 1140px;
+    max-height: 638px;
+    overflow: hidden;
+    margin: auto auto;
+}
+
+#title {
+    margin: 64px auto 0 auto;
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+}
+
+#sobre {
+    height: 115vh;
+}
+
+#sobre {
+    margin-top: -500px;
+    background-color: rgb(39, 38, 38);
+}
+
+.conateiner-espaco {
+    padding: 250px;
+}
+
+.midias {
+    width: 28px;
+    margin: 16px 0 ;
+}
+
+.midias .redes {
+    max-width: 100%;
+}
+
+#start {
+    align-items: center;
+}
+
+
+.items-start {
+    margin-top: 48px;
+}
+
+
+.title-section {
+    color: #f5efef;
+}
+
+#servicos img{
+    max-height: 225px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#servicos {
+    height: 70vh;
+}
+
+#itens {
+    background-color: rgb(39, 38, 38);
+    color: #dad1d1;
+    height: 70vh;
+}
+
+.text-colored {
+    color: rgb(102, 73, 150);
+}
+
+.text-colored-light {
+    color: rgb(174, 146, 219);
+}
+
+#contact {
+    height: 50vh;
+}
+
+#contact button, 
+.nav-cardapio .nav-link.active  {
+    background-color: rgb(102, 73, 150);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:  rgb(102, 73, 150);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #sobre {
+        margin-top: 0;
+    }
+
+    #servicos {
+        height: auto;
+    }
+
+    #itens {
+        height: auto;
+    }
+
+    #servicos img{
+        max-height: 121px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 767px) and (max-width:1200px) {
+    #servicos img{
+        max-height: 121px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1390px) {
+    #servicos img{
+        max-height: 200px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+}
+
